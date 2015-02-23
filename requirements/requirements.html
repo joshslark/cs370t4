@@ -14,6 +14,7 @@
       aside { float: right; margin-right: 10%; margin-top: -5%; width: 30%;}  
       p { font-weight: bold;}
       .purpose {word-wrap: break-word; width: 50%;}
+      li {margin-top:4px;}
     </style>
   </head>
 
@@ -39,112 +40,165 @@
         </p> 
     </div>
    
-    <ol>
         <p> 1. Introduction </p>
       	<ul>
-            <li> 1.1 Purpose and Overview of the System
-            <ul>
-                <li> 1.1.1 A geographic bubble map of the United States shall be created to
-                    illustrate the evolution of civic engagement in the United States. (Project
-                    Summary Mission) </li>
-                <li> 1.1.2 The target audience shall primarily be corporations, but the map
-                    shall also be accessible to the general public (questions E.1, E.2) </li>
-            </ul>
-            <li> 1.2 Success Criteria for the System
-            <ul>
-                <li> 1.2.1 The map shall display geotagged data sets as bubbles. (Project Summary
-                    Visual 2.a) </li>
-                <li> 1.2.2 There shall be a key that explains the current state of the data on the
-                    map. (Project Summary Visual 3) </li>
-                <li> 1.2.3 The filters used on the map shall include Date, Geography, Demography,
-                    and Contexts. (Project Summary Filters) </li>
-                <li> 1.2.4 The system shall provide predictive data capabilities (Questions D.1)
-                </li>
-                <li> 1.2.5 The system shall give authorized users administrative level access to the
-                    map (Project Summary Visual 1.a) <li>
-            </ul>
+            <li> 1.1 Purpose and Overview of the System </li>
+            <li>    
+                <ul>
+                    <li> 1.1.1 A geographic bubble map of the United States shall be created to
+                        illustrate the evolution of civic engagement in the United States. <br> (Project
+                        Summary Mission) </li>
+                    <li> 1.1.2 The target audience shall primarily be corporations, but the map
+                        shall also be accessible to the general public <br> (Questions E.1, E.2) </li>
+                </ul>
+            </li>
+
+            <li> 1.2 Success Criteria for the System </li>
+
+            <li>
+                <ul>
+                    <li> 1.2.1 The map shall display geotagged data sets as bubbles. <br> (Project Summary
+                        Visual 2.a) </li>
+                    <li> 1.2.2 There shall be a key that explains the current state of the data on the
+                        map. <br> (Project Summary Visual 3) </li>
+                    <li> 1.2.3 The filters used on the map shall include Date, Geography, Demography,
+                        and Contexts. <br> (Project Summary Filters) </li>
+                    <li> 1.2.4 The system shall provide predictive data capabilities <br> (Questions D.1)
+                    </li>
+                    <li> 1.2.5 The system shall give authorized users administrative level access to the
+                        map <br> (Project Summary Visual 1.a) <li>
+                </ul>
+            </li>
+
         </ul>
-    
 
         <p> 2. Functional Requirements </p>
         <ul> 
             <li> 2.1 Bubbles </li>
-            <ul>
-                <li> 2.1.1 The size of a bubble shall be determined by the size of its corresponding
-                    data set. (Project Summary Visual 2.a.ii)</li>
-                <li> 2.1.2 No bubble with a data set smaller than another bubble shall have a larger
-                    diameter than that bubble. (Project Summary 2.a.ii) </li>
-                <li> 2.1.3 The location of a bubble shall be determined by the location in which
-                    the data set indicates civic engagement occurred. (Project Summary Visual 2.a.i)
-                </li>
-            </ul>
+
+            <li>
+                <ul>
+                    <li> 2.1.1 The size of a bubble shall be determined by the size of its corresponding
+                        data set. <br> (Project Summary Visual 2.a.ii)</li>
+                    <li> 2.1.2 No bubble with a data set smaller than another bubble shall have a larger
+                        diameter than that bubble. <br> (Project Summary 2.a.ii) </li>
+                    <li> 2.1.3 The location of a bubble shall be determined by the location in which
+                        the data set indicates civic engagement occurred. <br> (Project Summary Visual 2.a.i)
+                    </li>
+                </ul>
+            </li>
+
             <li> 2.2 Key </li>
-            <ul>
-                <li> 2.2.1 The key shall include a variety of filters that alter the state of the
-                    map when clicked. (Questions C.1, C.2 C.3) </li>
-            </ul>
+
+            <li>
+                <ul>
+                    <li> 2.2.1 The key shall include a variety of filters that alter the state of the
+                        map when clicked. <br> (Questions C.1, C.2 C.3) </li>
+                </ul>
+            </li>
+
             <li> 2.3 Filters </li>
-            <ul>    
-                <li> 2.3.1 The date filter shall narrow the displayed bubbles to only those that
-                    fall within a specified range of years. (Project Summary Filters -> Date/Time)
-                </li>
-            </ul>
-            <li> 2.4 Adminstrators </li>
-            <ul> 
-                <li> 2.4.1 An administrator shall be able to customize the colors of bubbles,
-                    borders, and any space on the map that is not covered by an image. (Project
-                    Summary Visual 1.a.i) </li>
-                <li> 2.4.2 An administrator shall be able to zoom in on the map. (Project
-                    Summary Visual 1.a.ii) </li>
-                <li> 2.4.3 A regular, unauthorized user shall not be given the above capabilities.
-                    (Project Summary Visual 1.a) </li>
-            </ul>
+
+            <li>
+                <ul>    
+                    <li> 2.3.1 The date filter shall narrow the displayed bubbles to only those that
+                        fall within a specified range of years. <br> (Project Summary Filters -> Date/Time)
+                    </li>
+                    <li> 2.3.2 The geography filter shall narrow the displayed bubbles to only those
+                        that fall within a certain state or region. <br> (Project Summary Filters ->
+                        Geography) </li>
+                    <li> 2.3.3 The demography filter shall narrow the displayed bubbles to only those
+                        that concern people of a certain age, gender, or household income. <br> (Project
+                        Summary Filters -> Demography) </li>
+                    <li> 2.3.4 The contexts filter shall narrow the displayed bubbles to only those that
+                        correspond to a specific major civic movement. The major civic movements
+                        available to the filter will be  suffragists, unions, corporate, anti-slavery, anti-war,
+                        prohibition, green, tea party (historical and modern), civil rights (african
+                        american and women), LGBT, marriage equity, occupy, presidential administration
+                        (name and party), and party in control of congress. <br> (Project Summary
+                        Filters -> Contexts) </li>
+                </ul>
+            </li>
+
+            <li> 2.4 Administrators </li>
+
+            <li>
+                <ul> 
+                    <li> 2.4.1 An administrator shall be able to customize the colors of bubbles,
+                        borders, and any space on the map that is not covered by an image. <br> (Project
+                        Summary Visual 1.a.i) </li>
+                    <li> 2.4.2 An administrator shall be able to zoom in on the map. <br> (Project
+                        Summary Visual 1.a.ii) </li>
+                    <li> 2.4.3 A regular, unauthorized user shall not be given the above capabilities.
+                        <br> (Project Summary Visual 1.a) </li>
+                </ul>
+            </li>
+
             <li> 2.5 Miscellaneous </li>
-            <ul>
-                <li> 2.5.1 The starting image shall be a flat, blank map of the United States (question A.1) </li>
-                <li> 2.5.2 The nodes shall be merge-able(4.3) if they are connected to one another (question B.2)</li>
-            </ul>
+            
+            <li>
+                <ul>
+                    <li> 2.5.1 The starting image shall be a flat, blank map of the United States <br>
+                        (Questions A.1) </li>
+                    <li> 2.5.2 The nodes shall be merge-able if they are connected to one another <br>
+                        (Questions B.2)</li>
+                </ul>
+            </li>
+
         </ul>
  
         <p> 3. Non-Functional Requirements </p>
         <ul> 
-            <li> 3.1 The software shall be open-source (question </li>
-            <li> 3.2 The map shall be accessible through a web browser (question E.3) </li>
-            <li> 3.3 The map shall be portable(4.2) (question E.5) </li>
-            <li> 3.4 New data shall be inserted through a web form (question D.3) </li>
-            <li> 3.5 The system shall not allow an unauthorized user to remove data. (question </li>
-            <li> 3.6 The map shall be accessible offline (question </li>
+
+            <li> 3.1 The software shall be open-source. <br> (Questions </li>
+            <li> 3.2 The map shall be accessible through a web browser. <br> (Questions E.3) </li>
+            <li> 3.3 The map shall be portable. <br> (Questions E.5) </li>
+            <li> 3.4 New data shall be inserted through a web form. <br> (Questions D.3) </li>
+            <li> 3.5 The system shall not allow an unauthorized user to remove data. <br> (Questions </li>
+            <li> 3.6 The map shall be accessible offline. <br> (Questions </li>
+
         </ul>
      
         <p> 4. Glossary and definitions </p>
         <ul> 
+
             <li> 4.1 Civic Engagement</li>
-            <ul>
-                <li> The encouragement of the general public to become involved in the political process
-                    and the issues that affect them. </li>
-            </ul>
+            <li>
+                <ul>
+                    <li> The encouragement of the general public to become involved in the political process
+                        and the issues that affect them. </li>
+                </ul>
+            </li>
             <li> 4.2 Portable</li>
-            <ul>
-                <li> The ability to use the software on a variety of devices for the purpose of allowing
-                    access from any physical location. </li>
-            </ul>
+            <li>
+                <ul>
+                    <li> The ability to use the software on a variety of devices for the purpose of allowing
+                        access from any physical location. </li>
+                </ul>
+            </li>
             <li> 4.3 Node </li>
-            <ul>
-                <li> A specific location on the map showing the magnitude of civic engagement in that
-                    area. </li>
-            </ul>
+            <li>
+                <ul>
+                    <li> A specific location on the map showing the magnitude of civic engagement in that
+                        area. </li>
+                </ul>
+            </li>
             <li> 4.4 Mergeable </li>
-            <ul>
-                <li> Nodes on the map show their relationship to each other on the basis of overlapping
-                    data </li>
-            </ul>
+            <li>
+                <ul>
+                    <li> Nodes on the map show their relationship to each other on the basis of overlapping
+                        data </li>
+                </ul>
+            </li>
             <li> 4.5 Administrator </li>
-            <ul>
-                <li> A user that is authorized to make changes that a regular user should not be
-                    allowed to make. </li>
-            </ul>
+            <li>
+                <ul>
+                    <li> A user that is authorized to make changes that a regular user should not be
+                        allowed to make. </li>
+                </ul>
+            </li>
+
         </ul>
-    </ol>  
   </body>
 </html>
 
