@@ -1,11 +1,19 @@
 /*#logo { position: absolute; top: 10px; left: 20px; }*/
 h1 { text-align: center; position: relative; top: 30px; }
-#box1 { position: absolute ; top: 500px; left: 20px; padding: 0px; margin: 0px;}
-#box2 { position: absolute ; top: 500px; left: 150px; padding: 0px; margin: 0px;}
-#box3 { position: absolute ; top: 500px; left: 300px; padding: 0px; margin: 0px;} 
-#box4 { position: absolute ; top: 500px; left: 450px; padding: 0px; margin: 0px;} 
-#advanced { position: absolute; top: 900px; left: 740px; }
-#submitbutton { position: absolute; top:900px; left: 30px;}
+#box1 { position: absolute ; top: 510px; left: 20px; padding: 0px; margin: 0px;}
+#box2 { position: absolute ; top: 510px; left: 150px; padding: 0px; margin: 0px;}
+#box3 { position: absolute ; top: 510px; left: 300px; padding: 0px; margin: 0px;} 
+#box4 { position: absolute ; top: 510px; left: 450px; padding: 0px; margin: 0px;} 
+#box5 { position: absolute ; top: 470px; left: 20px; padding: 0px; margin: 0px;}
+#box6 { position: absolute ; top: 470px; left: 150px; padding: 0px; margin: 0px;}
+#box7 { position: absolute ; top: 470px; left: 300px; padding: 0px; margin: 0px;} 
+#box8 { position: absolute ; top: 470px; left: 450px; padding: 0px; margin: 0px;}
+#box9 { position: absolute ; top: 430px; left: 20px; padding: 0px; margin: 0px;}
+#box10 { position: absolute ; top: 430px; left: 150px; padding: 0px; margin: 0px;}
+#box11{ position: absolute ; top: 430px; left: 300px; padding: 0px; margin: 0px;} 
+#box12 { position: absolute ; top: 430px; left: 450px; padding: 0px; margin: 0px;}
+#advanced { position: absolute; top: 650px; left: 740px; }
+#submitbutton { position: absolute; top:650px; left: 30px;}
 p { padding:0px; margin:5px;}
 #hidden { display: none; } 
 input[type='checkbox'] {
