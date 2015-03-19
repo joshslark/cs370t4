@@ -8,19 +8,8 @@
     <meta name="author" content="Callie Federer" />
     <meta name="author" content="Joshua Clark" />
     <title>The Outsourcers</title>
-    <style>
-    #logo { position: absolute; top: 10px; left: 20px; }
-    h1 { text-align: center; position: relative; top: 30px; }
-    #box1 { position: absolute ; top: 730px; left: 20px; padding: 0px; margin: 0px;}
-    #box2 { position: absolute ; top: 730px; left: 200px; padding: 0px; margin: 0px;}
-    #box3 { position: absolute ; top: 730px; left: 415px; padding: 0px; margin: 0px;} 
-    #box4 { position: absolute ; top: 730px; left: 740px; padding: 0px; margin: 0px;} 
-    #advanced { position: absolute; top: 900px; left: 740px; }
-    #submitbutton { position: absolute; top:900px; left: 30px;}
-    p { padding:0px; margin:5px;}
-    #hidden { display: none; } 
-    </style>
-    
+    <link rel="stylesheet" href="map.css"/>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
            
@@ -38,23 +27,20 @@
 
   <body>
     <h1> 
+      <img src ="wetheP.png" alt="WeTheP Logo" /> 
       Bubble Map of Civic Engagement in the US 
     </h1>
-    <div id="logo">
-      <img src ="wetheP.png" alt="WeTheP Logo" />   
-    </div>
     
    <div class="mapImage">
         <a href="pg2.html"><img src="pg1.png" alt="Home Page Map"
                                 usemap="#hover" style="width:640px;height:420px"></a>
         <map name="hover">
             <area shape="circle" coords="242,160,10" 
-                title="Arkansas Here">
+                title="Here is an event description">
             <area shape="circle" coords="292,155,5" 
-                title="Tennessee Here">
+                title="Here is an event description">
             <area shape="rect" coords="251,157,286,197" 
-                title="Line Here. How much information can we shove here
-                        Can we shove multiple lines in this spot?">
+                title="Lines will display relationships between events">
     </div> 
     
     <div id="contexts">
