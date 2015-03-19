@@ -1,22 +1,61 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html> 
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="author" content="Joe Naylor" />
-    <meta name="author" content="Josh Clark" />
     <meta name="author" content="Kevin Ou" />
-    <meta name="author" content="Callie Federer" />
     <meta name="author" content="Rohan Khakurel" />
-    <title>Civic Engagement in the United States</title>
+    <meta name="author" content="Joe Naylor" />
+    <meta name="author" content="Callie Federer" />
+    <meta name="author" content="Joshua Clark" />
+    <title>The Outsourcers</title>
+    <style>
+    #logo { position: absolute; top: 10px; left: 20px; }
+    h1 { text-align: center; position: relative; top: 30px; }
+    #box1 { position: absolute ; top: 730px; left: 20px; padding: 0px; margin: 0px;}
+    #box2 { position: absolute ; top: 730px; left: 200px; padding: 0px; margin: 0px;}
+    #box3 { position: absolute ; top: 730px; left: 415px; padding: 0px; margin: 0px;} 
+    #box4 { position: absolute ; top: 730px; left: 740px; padding: 0px; margin: 0px;} 
+    #advanced { position: absolute; top: 900px; left: 740px; }
+    #backbutton { position: absolute; top:850px; left: 30px;}
+    p { padding:0px; margin:5px;}
+    #hidden { display: none; } 
+    img { position: relative; top: 40px;}
+    </style>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+           
+     $(document).ready(function(){
+    $("#reveal").click(function(){
+        $("#hidden").toggle();
+    });
+});
+</script>
   </head>
+
   <body>
-    <h1>Civic Engagement in the United States</h1>
-    <div class="mapImage">
-        <a href="pg5.html"><img src="pg6.png" alt="Home Page Map"
-                                              style="width:640px;height:420px"></a>
+    <h1> 
+      Bubble Map of Civic Engagement in the US 
+    </h1>
+    <div id="logo">
+      <img src ="wetheP.png" alt="WeTheP Logo" />   
     </div>
-    <p> 11. Click on "Return to Map" to zoom out to the national level. </p>
-    <p> Restart the demonstration? <a href="pg1.html"> Click Here </a>
+    
+   <div class="mapImage">
+    	<img src="pg6.png" alt="Home Page Map" style="width:960px;height:780px">
+    </div> 
+    
+           <form method= "link" action="pg5.php" >   
+      <p id="backbutton">
+      <input type="submit" name="back" value="Back" >
+      </p>
+      </form>
+      
+    
+      
+
+
   </body>
 </html>
-  
+
+
