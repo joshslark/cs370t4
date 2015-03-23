@@ -1,0 +1,17 @@
+Team 4 Mock up Evaluation:
+
+
+Category	                Possible	T1 T2  T3	 T4	T5	T6	T7
+Presentation	            5	        5	  5	 5	 5	5	   5	5
+Intuitiveness of Controls	10	      10	9  8	 9	8	   9	9
+Use of Color	            10	      10	9	 8	 8	8	   9	8
+Use of Shapes	            10	      10	9	 8	 8	9    8	8
+Feasibility	              5	        5	  5	 5	 5	5    5  5
+Total	                    40	      39	37 35  35	35	36	35
+
+Rank (worst to best):
+T5, T7, T6, T3, T4, T2, T1
+
+Team 1 had a great framework for development, we are all in agreement that this has the features asked for and a feasible way to go about it. We liked Team 2’s use of pins and the coloring of states based on GDP and other demographics. We are not sure that she will like the pins since the overall project is a bubble map but we’d like it suggested. We liked the help feature of Team 3 and think that would be helpful on any of our designs. We did not feel that the tool was intuitive without the tutorial. From our design we felt that we truly captured the expectations of the client with the context, filters and relationships. We do think that more organization and color-coding would make it more appealing for users. Team 5 is downloadable and usable without internet access which may be what the client wants. We did not feel that the tool captured what the client had in mind; however, with no key, not much color-coding and no layering capabilities. Team 6 had a good idea with the wiki page on the side. We did not find the layout or appearance to be attractive or intuitive, however. Team 7 was not intuitive for users also nor did it follow color-coding schemes, but we did like the auto-feed information. 
+
+
