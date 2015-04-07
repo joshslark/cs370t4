@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kevin Ou" />
+    <meta name="author" content="Rohan Khakurel" />
+    <meta name="author" content="Joe Naylor" />
+    <meta name="author" content="Callie Federer" />
+    <meta name="author" content="Joshua Clark" />     
+    <title>Requirements - The Outsourcers</title>
+    <style> 
+      ul { list-style-type: none; }
+      body { font-family: sans-serif; margin-left: 20px; max-width: 1000px;}
+      aside { float: right; margin-right: 10%; margin-top: -5%; width: 30%;}  
+      p { font-weight: bold;}
+      .purpose {word-wrap: break-word; width: 50%;}
+      li {margin-top:4px;}
+    </style>
+  </head>
+
+  <body>
+    <h1> Design Document</h1>
+    <h2> The Outsourcers </h2>
+    <aside> 
+      <p> Creation Date : 04/06/2015 </p>
+      <p> Last revision : 08:37pm, 04/06/2015</p>
+    </aside>
+    <p style="clear: right;"> Person responsible for document : Callie Federer </p>
+    <div class="purpose"> 
+        <h3> Statement of purpose : </h3>
+        <p style="font-weight:normal;">
+            This document is a technical design document for our civic 
+            engagement map. It provides a description of our architectural
+             design, the Model View Controller, our plan for future changes 
+             in requirements, some explanation on our decision to create an 
+             online tool using javascript, html, css and php, and our UML
+             diagram. 
+        </p> 
+    </div>
+    <h3> Architectural style: </h3>
+    <h3> Unresolved issues: </h3>
+    <p style="font-weight:normal;"> We will be creating an online system based
+    on the requirement that this will be displayed on websites and quick
+    for users to use. We will be using an official set of data while allowing 
+    users to add local data for their personal views and to submit data to be
+    reviewed and potentially added to the official dataset. 
+    <h3> Plan for future change: </h3>
+    Our design is focused on modularity, splitting up our map application
+    into focused objects, in order to plan for change. We have abstracted
+    our classes so that a change the implementation of one class does not
+    necessarily affect it's relationship with other classes. With the MVC
+    architecture, we have extensibility in allowing new capabilities 
+    without causing changes to our current ones. 
+    <h3> Implementation language: </h3>
+    <p style="font-weight:normal;"> We will be using javascript, html, css 
+    and php for our civic engagement map. We want a dynamic web application in
+    order to follow the requirements that our map will be available on websites. 
+    Javascript has frameworks in order to build our map. We will allow users
+    to apply filters and submit forms that will update the data displayed on the 
+    map, and these languages in an MVC architect will allow us to pull
+    data from a database, filter and display to the users. 
+    <h3> UML Diagram: </h3>
+    
+  </body>
+</html>
+
+
