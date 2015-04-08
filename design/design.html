@@ -63,8 +63,34 @@
     map, and these languages in an MVC architect will allow us to pull
     data from a database, filter and display to the users. 
     <h3> UML Diagram: </h3>
-    <img src="civicMapUML.png"></img>
+    <img src="MVC.png"></img>
+    <p style="font-weight:normal;"> This diagram represents the highest-level view of our MVC framework. Later
+    diagrams go into more detail and even tweak these three classes as needed to meet the
+    requirements of the system. </p>
     
+    <h3> MapView Design </h3>
+    <img src="view.png"></img>
+    <p style="font-weight:normal;"> This diagram shows the sub-design of
+    the view tier of our architecture. </p>
+
+    <h3> MapModel Design </h3>
+    <img src="view.png"></img>
+    <p style="font-weight:normal;"> This diagram shows the sub-design of
+    the model tier of our architecture. </p>
+    
+    <h3> Filter Model Design </h3>
+    <img src="filter.png"></img> 
+    <p style="font-weight:normal;"> This diagram gives a more fleshed out
+    version of what classes should be included to allow the filters to sort
+    through the database and change which bubbles are included in the model.</p>
+
+    <h3> MapController Design </h3>
+    <p style="font-weight:normal;"> At some point, we have to stop designing and start
+    coding, so, we leave the Controller UML out and simply state that there should be a class
+    for any view object we wish to interact with and methods and attributes to allow a
+    controller object to determine whether user events apply to itself, and based on the
+    information in that event, react by modifying the model appropriately and telling the
+    MapView to check the model and display the results. </p>
   </body>
 </html>
 
